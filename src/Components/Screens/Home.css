@@ -1,0 +1,228 @@
+/* Home Page CSS */
+body{
+    font-family:  'Trebuchet MS' !important;
+  }
+.display-1{
+    color: rgb(34, 34, 145) !important;
+}
+
+.div1{
+    margin: 5%;
+    margin-top: 10%;
+    /* background-image: url('https://cdn.wallpapersafari.com/92/46/IFqQOk.png');
+    background-size: cover; */
+    height: 300px !important;
+}
+.blockquote-footer{
+    font-size: 20px !important;
+}
+.img{
+    width: 60%;
+    height: 50%;
+    margin-bottom: 20% !important;
+}
+.div2{
+    margin: 7%; 
+    margin-top: 15%;   
+    text-align: center;
+}
+/* .crimg{
+    width: 100% !important;
+    height: 200px !important;
+} */
+.subheading{
+    margin-bottom: 5%;
+    text-shadow: 2px 2px  grey;
+    color: rgb(34, 34, 145) !important;
+
+}
+.div3{
+    margin: 10%;    
+    margin-bottom: 15%;
+}
+.btn{
+    margin-left: 60%;
+}
+@media screen and (max-width: 480px) {
+    .img{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .btn{
+        margin-left: 50%;
+    }
+    .display-3{
+        margin-top: 0%;
+    }
+    
+    .display-3{
+        margin-top: 0% !important;
+    }
+    .pop{
+        height: 50px !important;
+    }
+ 
+  }
+
+
+
+/* About Page CSS */
+
+
+  
+  
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  footer {
+    background: rgb(34, 34, 145);
+  }
+  
+  
+  .pop{
+     margin: 5% !important;
+     height: 500px !important;
+  }
+  .display-3{
+      margin-top: 15% !important ;
+      margin: 10%;
+      font-size: 50px !important;
+      
+  }
+  .para{
+      text-align: center;
+  }
+  .aboutdiv{
+      margin: 5%;
+  }
+  .Abtdiv{
+      margin-bottom: 10% !important;
+  }
+
+
+
+
+
+
+
+
+
+
+/* Contact page Css */
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: rgb(34, 34, 145);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Cart Page CSS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+
+
+.cartinput{
+    width: 2rem;
+    text-align: center;
+}
+
+.size span {
+    font-size: 11px
+}
+
+.color span {
+    font-size: 11px
+}
+
+.product-deta {
+    margin-right: 70px
+}
+
+.gift-card:focus {
+    box-shadow: none
+}
+
+.pay-button {
+    color: #fff
+}
+
+.pay-button:hover {
+    color: #fff
+}
+
+.pay-button:focus {
+    color: #fff;
+    box-shadow: none
+}
+
+.text-grey {
+    color: #a39f9f
+}
+
+.qty i {
+    font-size: 11px
+}
